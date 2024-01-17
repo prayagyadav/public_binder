@@ -1,11 +1,7 @@
-name: coffea
+name: json
 channels:
   - conda-forge
 dependencies:
   - python==3.10.*
   - ipykernel
-  - xxhash
-  - xrootd
   - pip
-  - pip:
-    - '--editable ./coffea'
